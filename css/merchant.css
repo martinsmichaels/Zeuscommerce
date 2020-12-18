@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+}
+
+nav{
+    background-color: #651fff; height: 100%;
+    opacity: 0.9;
+}
+
+nav ul{
+    list-style-type: none;
+margin: 0; padding: 0; width: 10%;
+position: fixed; height: 100%;
+overflow: auto;  background-color: #651fff;
+opacity: 0.9;
+}
+
+nav ul li a{
+    display: block; font-size: 30px;
+    text-decoration: none; color: white;
+}
+nav ul li{
+    text-align: center; 
+    padding-bottom: 12%; padding-top: 12%;
+}
+nav ul li:nth-of-type(5){
+    border-bottom: 1px solid white;
+}
+nav ul li a:active, nav ul li a:focus, nav ul li a:hover{
+   color: white; 
+}
+nav ul li:active, nav ul li:hover, nav ul li:focus{
+background-color: #8080ff;
+}
+nav ul li span.glyphicon-ok{
+    font-size: 8px; color: #651fff;
+    border-radius: 50%; position: relative;
+    margin-left: -10%; background-color: white;
+    padding: 3%;
+}
+div{ 
+    margin-left: 10%;
+}
+div ul:nth-of-type(1){
+    list-style-type: none;
+    overflow: hidden; 
+    border-bottom: 2px solid #8080ff;
+}
+div ul:nth-of-type(1) li:nth-of-type(1){
+    display: inline; float: left;
+ padding: 16px 0px; font-size: 30px;
+ color: #651fff; font-weight: bold;
+}
+div ul:nth-of-type(1) li:nth-of-type(2){
+    display: inline; float: right;
+    border-left: 1px solid #8080ff;
+    padding: 16px 0px; width: 25%;
+}
+div ul:nth-of-type(1) li:nth-of-type(2) button.btn-lg{
+    padding: 20px; background-color: black;
+    border-radius: 0px; margin-left: 15%;
+}
+div ul:nth-of-type(1) li:nth-of-type(2) button.btn-lg:active,
+div ul:nth-of-type(1) li:nth-of-type(2) button.btn-lg:focus{
+    outline: none;
+}
+div ul:nth-of-type(1) li:nth-of-type(2) span:nth-of-type(1){
+    font-size: 16px; margin-left: 5%;
+    font-weight: bold;
+}
+.glyphicon-menu-down{
+    margin-left: 7%;
+}
+div form{
+    margin-top: 6%;
+}
+div form input{
+    border: 2px solid #8080ff;
+    padding: 12px 6px; padding-left: 18px;
+    font-size: 20px; margin-left: 2%; 
+    border-top-left-radius: 5px; 
+    border-bottom-left-radius: 5px; 
+    width: 35%;
+    border-right: 0;
+}
+div form input:focus{
+    outline: none;
+}
+div .glyphicon-search{
+    color: #8080ff; 
+    border: 2px solid #8080ff;
+    font-size: 25px; padding-top: 10px;
+    padding-bottom: 17px; padding-left: 12px;
+    padding-right: 12px; border-left: 0px;
+    border-top-right-radius: 5px; 
+    border-bottom-right-radius: 5px; 
+}
+form button.btn-lg{
+    color: #8080ff;
+    border: 2px solid #8080ff;
+    background-color: white; margin-top: -0.5%;
+    margin-left: 1.5%; font-size: 23px;
+    padding-bottom: 1%; padding-top: 1%;
+}
+div.mainPage form button.btn-lg:hover,div.mainPage form button.btn-lg:active,
+div.mainPage form button.btn-lg:focus{
+    color: #8080ff; outline: none;
+}
+table.table-striped{
+    width: 90%; margin-left: 2%;
+    margin-top: 3%;
+}
+table.table-striped tr:nth-of-type(1){
+    background-color: #8080ff; color: white;
+    font-weight: bold; font-size: 17px;
+}
+table.table-striped tr td:nth-of-type(1){
+    padding: 2.2% 2%;
+}
+table.table-striped tr td:nth-of-type(2){
+    font-weight: bold; font-size: 18px;
+   padding-bottom: 3%; padding-top: 3%;
+}
+table.table-striped tr td:nth-of-type(3){
+    font-weight: b; font-size: 18px;
+    color: #8080ff; padding-bottom: 3%; 
+    padding-top: 3%;
+}
+table.table-striped tr td:nth-of-type(4){
+    color: gold; padding-bottom: 3%;
+     padding-top: 3%;
+}
+table.table-striped tr td:nth-of-type(5){
+    padding-top: 3%; padding-bottom: 3%;   
+}
+table.table-striped tr td:nth-of-type(6){
+    padding-top: 2.8%; padding-bottom: 3%;   
+}
+table.table-striped tr td:nth-of-type(5) span{
+    border-radius: 40px; padding: 8px 20px; 
+}
+table.table-striped tr td:nth-of-type(6) button{
+    border-radius: 40px; padding: 6px 20px; 
+    font-size: 11px;
+}
+ table.table-striped tr td:nth-of-type(6) button:focus{
+    outline: none;
+}
+tr td:nth-of-type(1) .badge{
+    background-color: #8080ff;
+    padding: 30% 35%; border-radius: 50%;
+    color: #8080ff;
+}
